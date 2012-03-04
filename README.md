@@ -1,6 +1,6 @@
 # Android and Javascript
 
-This is a simple Scala Android application that demonstrates how you can have your Javascript within your WebView call back to the Android code.  It also shows how the Android Activity can polyfill core browser features such as the console.
+This is a simple Scala Android application that demonstrates how Javascript within an Android WebView can call native Android code.  It also shows how Android can polyfill core browser features such as intercepting console messagse.
 
 In the future I will add additional examples of how Android can interact with local Javascript.
 
