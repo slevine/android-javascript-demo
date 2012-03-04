@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery demo</title>
+</head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<body>
+<div>Click <a href="#">here</a> to invoke an Android function to find out the Android SDK version used to build this App.
+</div>
+<div class="sdk">SDK:</div>
+</body>
+<script>
+    console.log("After Loading JQuery...");
+    $("a").click(function () {
+        $('.sdk').append(Android.sdkVersion());
+    });
+    console.log("After assigning click callback...")
+</script>
+
+</html>
